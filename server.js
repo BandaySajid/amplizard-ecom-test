@@ -167,6 +167,6 @@ app.listen(PORT, "localhost", () => {
 		- POST /users/register       # User registration
 		- POST /users/login          # User login
 
-		Example Url: http://${IP}/products
+		Example Url: http://${IP}:${PORT}/products
 `);
 });
