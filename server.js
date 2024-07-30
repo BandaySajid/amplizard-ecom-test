@@ -146,7 +146,7 @@ app.post("/users/login", (req, res) => {
   }
 });
 
-app.listen(PORT, "localhost", () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server is running on port localhost:${PORT}, network IP:`, IP);
   console.log(`API Endpoints:
 		Products:
