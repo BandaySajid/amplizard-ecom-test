@@ -1,0 +1,20 @@
+API Endpoints:
+
+Products:
+- GET /products              # Get all products
+- GET /products/:id          # Get a single product by ID
+- POST /products             # Create a new product
+- PUT /products/:id          # Update a product by ID
+- DELETE /products/:id       # Delete a product by ID
+
+Orders:
+- GET /orders                # Get all orders
+- GET /orders/:id            # Get a single order by ID
+- POST /orders               # Create a new order
+- PUT /orders/:id            # Update an order by ID
+- DELETE /orders/:id         # Cancel an order by ID
+
+Users:
+- POST /users/register       # User registration
+- POST /users/login          # User login
+
